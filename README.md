@@ -75,21 +75,23 @@ The dataset_info.csv file contains the following columns:
 * N Samples (Traffic) - number of samples in the traffic data
 * N samples (Movement) - number of samples in the movemet data
 
-The "Position and orientation sample plots" folder contains two sample codes (Matlab: "sample_plot.m", Python: "sample_plot.py") to parse the movement data file and convert from quaternions to euler angles.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+In the "Position and orientation sample plots" folder we provide two sample codes (Matlab: "sample_plot.m", Python: "sample_plot.py") to parse the movement data file and convert from quaternions to euler angles.
 In the same folder, we provide the file "sample_movement_data.csv" which has been recorded while performing the following actions:
 
-One step back (z +)
-One step forward (z -)
-One step left (x -)
-One step right (x +)
-Crouch (y -)
-Tiptoe (y +)
-Look down (pitch -)
-Look up (pitch +)
-Look left (yaw +)
-Look right (yaw -)
-Tilt head left (roll +)
-Tilt head right (roll -)
+* One step back (z +)
+* One step forward (z -)
+* One step left (x -)
+* One step right (x +)
+* Crouch (y -)
+* Tiptoe (y +)
+* Look down (pitch -)
+* Look up (pitch +)
+* Look left (yaw +)
+* Look right (yaw -)
+* Tilt head left (roll +)
+* Tilt head right (roll -)
 
 References
 
