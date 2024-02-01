@@ -75,6 +75,8 @@ The dataset_info.csv file contains the following columns:
 * N Samples (Traffic) - number of samples in the traffic data
 * N samples (Movement) - number of samples in the movemet data
 
+The dataset is available at https://researchdata.cab.unipd.it/1179/
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 In the "Position and orientation sample plots" folder we provide two sample codes (Matlab: "sample_plot.m", Python: "sample_plot.py") to parse the movement data file and convert from quaternions to euler angles.
