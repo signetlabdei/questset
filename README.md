@@ -1,4 +1,7 @@
-# questset
+# Questset
+
+![vr_teaser](https://github.com/signetlabdei/questset/assets/156791134/ad7bd1e4-ec09-47a9-b160-1c3a2225202f)
+
 
 The dataset is organized in two folders: complete and incomplete data. 
 The former corresponds to the data collected from 60 participants who experienced at least 10 minutes for each of the two VR games and could complete the entire experiment.
@@ -72,8 +75,8 @@ The dataset_info.csv file contains the following columns:
 * N Samples (Traffic) - number of samples in the traffic data
 * N samples (Movement) - number of samples in the movemet data
 
-Two sample codes (Matlab: "quat2eulers.m", Python: "quat2eulers.py") are provided to parse the movement data file and convert from quaternions to euler angles.
-We provide the file "calibration.csv" which has been recorded while performing the following actions:
+The "Position and orientation sample plots" folder contains two sample codes (Matlab: "sample_plot.m", Python: "sample_plot.py") to parse the movement data file and convert from quaternions to euler angles.
+In the same folder, we provide the file "sample_movement_data.csv" which has been recorded while performing the following actions:
 
 One step back (z +)
 One step forward (z -)
