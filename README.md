@@ -5,7 +5,7 @@ The former corresponds to the data collected from 60 participants who experience
 The latter stores the data of 10 additional participants who felt sick during the experiment and could not complete it.
 The corresponding traces are thus either shorter than 10 minutes or partial, and some participants only played the first game before they withdrew. 
 
-The data for each user is saved in a directory named group<grpID>_order<O>_user<userID> according to the group<grpID>_order<O>_user<usrID>_<game>_<trace> format, where
+The data for each user is saved in a directory named group\<G\>\_order\<O\>\_user\<u\> according to the group\<G\>\_order\<O\>\_user\<u\>\_\<g\>\_\<t\> format, where
 
 * 𝐺 ∈ {1, 2} is the group ID, with 1 and 2 representing the two groups;
 * 𝑂 ∈ {1, 2} indicates whether the slow game was played first (1) or second (2);
