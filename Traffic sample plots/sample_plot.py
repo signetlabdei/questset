@@ -14,7 +14,7 @@ def main():
     header_size = 27  # USBPCAP pseudo-header
     data["size"] = data["size"] - header_size
 
-    # %% plot the size of the packets over time
+    # Plot the size of the packets over time
     window_l = 1  # define a time window [s] for the plotting
 
     sns.scatterplot(data=data, x="time", y="size", hue="direction")
@@ -24,7 +24,7 @@ def main():
     plt.grid()
     plt.show()
 
-    # # filter only downlink (DL) packets that are larger than 5 KB
+    # Filter only downlink (DL) packets that are larger than 5 KB
     data_dl = data[(data["direction"] == "DL") & (data["size"] > 5e3)]
     sns.scatterplot(data=data_dl, x="time", y="size")
     plt.xlabel("Time [s]")
@@ -34,18 +34,18 @@ def main():
     plt.grid()
     plt.show()
 
-    # compute the Inter Packet Inter-arrival time
+    # Compute the Inter Packet Inter-arrival time
     time = data_dl["time"].values
     ipi = np.diff(time,1)
     
-    # plot the histogram
+    # Plot the histogram
     sns.histplot(data=ipi*1e3,stat="density")
     plt.xlabel("IPI [ms]")
     plt.ylabel("Density")
     plt.grid()
     plt.show()
 
-    # zoom in
+    # Zoom in
     sns.histplot(data=ipi*1e3, stat="density")
     plt.xlabel("IPI [ms]")
     plt.ylabel("Density")
