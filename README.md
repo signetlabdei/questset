@@ -74,6 +74,8 @@ The dataset_info.csv file contains the following columns:
 * N Samples (Traffic) - number of samples in the traffic data
 * N samples (Movement) - number of samples in the movemet data
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 The dataset is available at https://researchdata.cab.unipd.it/1239/
 
 If you use this dataset in your research, please cite:
