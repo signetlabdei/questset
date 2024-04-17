@@ -2,7 +2,6 @@
 
 ![vr_teaser](https://github.com/signetlabdei/questset/assets/156791134/ad7bd1e4-ec09-47a9-b160-1c3a2225202f)
 
-
 The dataset is organized in two folders: complete and incomplete data. 
 The former corresponds to the data collected from 60 participants who experienced at least 10 minutes for each of the two VR games and could complete the entire experiment.
 The latter stores the data of 10 additional participants who felt sick during the experiment and could not complete it.
@@ -76,6 +75,10 @@ The dataset_info.csv file contains the following columns:
 * N samples (Movement) - number of samples in the movemet data
 
 The dataset is available at https://researchdata.cab.unipd.it/1239/
+
+If you use this dataset in your research, please cite:
+
+Sara Baldoni, Federica Battisti, Federico Chiariotti, Fabio Mistrorigo, Alfi Baqiatus Shofi, Paolo Testolina, Alessandro Traspadini, Andrea Zanella, and Michele Zorzi. 2024. Questset: A VR Dataset for Network and Quality of Experience Studies. In Proceedings of the 15th ACM Multimedia Systems Conference (MMSys '24). Association for Computing Machinery, New York, NY, USA, 408–414. https://doi.org/10.1145/3625468.3652187
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
